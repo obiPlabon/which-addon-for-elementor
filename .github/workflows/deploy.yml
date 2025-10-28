@@ -1,0 +1,17 @@
+name: Release on WordPress.org
+on:
+  push:
+    tags:
+    - "*"
+jobs:
+  tag:
+    name: Release on new tag
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/checkout@master
+    - name: WordPress Plugin Release
+      uses: 10up/action-wordpress-plugin-deploy@stable
+      env:
+        SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+        SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+        SLUG: which-addon-for-elementor
