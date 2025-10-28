@@ -1,14 +1,10 @@
 === Which Elementor Addon ===
-Plugin Name: Which Addon for Elementor
-Version: 1.2.0
-Author: obiPlabon
-Author URI: https://obiplabon.im
 Contributors: obiPlabon, gtarafdarr
-Tags: Elementor Page Builder, Elementor addons, Elementor Widgets, Elementor Tools
-Requires at least: 4.7
-Tested up to: 5.7
-Stable tag: trunk
-Requires PHP: 5.4
+Tags: elementor, landing page, page builder, editor
+Requires at least: 6.0
+Tested up to: 6.8
+Requires PHP: 7.0
+Stable tag: 1.3.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,7 +31,7 @@ This plugin doesn’t ask extra from you, just this one 😉👇
 
 ## Looking For Your Feedback 😊
 
-I’m looking for your suggestion and feedback on how I can help you in a better way without taking any hassle at your end. Feel free to [share your opinion](https://obiplabon.im/contact/). Your opinion will inspire me to improve and new functionality. And please don't forget to share your feelings through [⭐️⭐️⭐️⭐️⭐️ ratting](https://wordpress.org/support/plugin/which-addon-for-elementor/reviews/#new-post) 😃
+I’m looking for your suggestion and feedback on how I can help you in a better way without taking any hassle at your end. Feel free to [share your opinion](https://obiplabon.com/contact/). Your opinion will inspire me to improve and new functionality. And please don't forget to share your feelings through [⭐️⭐️⭐️⭐️⭐️ ratting](https://wordpress.org/support/plugin/which-addon-for-elementor/reviews/#new-post) 😃
 
 
 == Installation ==
@@ -62,6 +58,10 @@ It's really easy and super simple to install **Which Elementor Addon** plugin bu
 
 == Changelog ==
 
+= 1.3.0 - 28 October 2025 =
+
+- New: WP Compatibility update
+
 = 1.2.0 - 19 March 2021 =
 
 - New: WP 5.7 compatibilty
@@ -71,7 +71,7 @@ It's really easy and super simple to install **Which Elementor Addon** plugin bu
 
 = 1.1.0 - 3 May 2020 =
 
-- New: Only logged in users can see label now (*user suggested feature) - [share your idea](https://obiplabon.im/contact/)
+- New: Only logged in users can see label now (*user suggested feature) - [share your idea](https://obiplabon.com/contact/)
 
 = 1.0.1 - 10 March 2019 =
 

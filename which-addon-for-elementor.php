@@ -1,15 +1,16 @@
 <?php
 /**
  * Plugin Name: Which Elementor Addon
- * Plugin URI: https://obiplabon.im
+ * Plugin URI: https://obiplabon.com
  * Description: Find the unnecessary, repeating, replaceable Elementor add-ons or widgets easily with this simple and easy to use super lightweight plugin! This plugin simply adds a tooltip which shows the widget name along with the plugin name, amazing!
- * Version: 1.2.0
+ * Version: 1.3.0
  * Author: obiPlabon
- * Author URI: https://obiplabon.im
+ * Author URI: https://obiplabon.com
  * License: GPLv2
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: which-elementor-addon
  * Domain Path: /languages/
+ * Requires Plugins: elementor
  *
  * @package Which_Elementor_Addon
  */
@@ -49,12 +50,12 @@ class Which_Elementor_Addon {
 	/**
 	 * Plugin version
 	 */
-	const VERSION = '1.2.0';
+	const VERSION = '1.3.0';
 
 	/**
 	 * Required minimum php version
 	 */
-	const REQUIRED_PHP_VERSION = '5.4';
+	const REQUIRED_PHP_VERSION = '7.0';
 
 	/**
 	 * Plugin slug
